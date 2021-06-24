@@ -100,3 +100,32 @@ body {
   .opacity-35 {
 	opacity: 0.35;
   }
+  .underline:after {
+	content: '';
+	display: block;
+	height: 3px;
+	background-color: #ffffff;
+	bottom: 5px;
+	border-radius: 3px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  .ul-courses:after {
+	width: 64px;
+  }
+  
+  .ul-pricing:after {
+	width: 55px;
+  }
+  
+  .dropdown-menu {
+	width: 100%;
+  }
+  
+  .dropdown-spacing {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem;
+  }
